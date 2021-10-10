@@ -1,7 +1,4 @@
-html{
-scroll-behavior: smooth;
-}
-    body{
+body{
     font-family: "Open sans",sans-serif;
     margin: 0;
     padding: 0;
@@ -22,12 +19,12 @@ scroll-behavior: smooth;
 .responsive-nav-right ul{
     padding: 0px 0 0 20px!important;
 }
-@media only screen (max-width:768px){
+@media only screen and (max-width:768px){
     #about .section-header{
         padding: 0px 0;
     }   
 }
-@media screen (max-width:767px){
+@media only screen and (max-width:767px){
     #div-response .navbar-default{
         margin: 50px 0 0 50px!important;
     }
@@ -343,7 +340,6 @@ color: #fff!important;
   start of features
 ===========================---*/
 #features .section-header{
-    background-color: ;
     padding: 90px 0;
     text-align: center;
 }
