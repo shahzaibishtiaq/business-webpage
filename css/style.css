@@ -202,28 +202,22 @@ color: #fff!important;
 }
 .home-text a{
     color: #fff;
-    font-size: 25px;
+    font-size: 17px;
     font-family: "Montserrat",sans-serif;
     font-weight: 300;
     border-radius: 50px;
     margin: 60px 0 0 0!important;
-    padding: 20px 55px;
+    padding: 13px 35px;
     text-decoration: none;
     border: 2px solid #fff;
+    transition: 0.5s all;
 }
 .home-text a:hover{
      color: #fff;
-    font-size: 25px;
-    font-family: "Montserrat",sans-serif;
-    font-weight: 300;
-    border-radius: 50px;
-    margin: 40px 0 0 0!important;
-    padding: 20px 55px;
     text-decoration: none;
     border: 2px solid #fff;
     background: #fff;
     color: aqua;
-    transition: 0.5s all;
 }
 
 #home .product-screens{
